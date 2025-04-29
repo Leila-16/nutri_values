@@ -3,7 +3,7 @@
 
 
 ## 📌 Цель проекта
-Собрать данные о продуктах питания (КБЖУ) с сайтов российских ритейлеров (Яндекс.Лавка, Самокат, ВкусВилл и др.) и составить рейтинги товаров по ключевым метрикам
+Собрать данные о продуктах питания (КБЖУ) с сайтов российских ритейлеров (Яндекс.Лавка, Самокат, ВкусВилл и др.) и составить рейтинги товаров по ключевым метрикам.
 Например:
 - Низкокалорийные напитки
 - Топ-20 продуктов по содержанию белка
@@ -39,14 +39,34 @@
 # Analytics of nutritional value of products 🍎📊
 
 ## 📌 Aim of the project
-Собрать данные о продуктах питания (КБЖУ) с сайтов российских ритейлеров (Яндекс.Лавка, Самокат, ВкусВилл и др.) и составить рейтинги товаров по ключевым метрикам
-Например:
-- Низкокалорийные напитки
-- Топ-20 продуктов по содержанию белка
+Collect data about the nutritional value of the products sold by russian retailers (Yandex.Lavka, Samokat, VkusVill etc) and rank products based on key metrics.
+For example:
+- Low callorie drinks
+- Top-20 items by protein amount
+ 
+ 
+## 🔧 Stack
+- **Parsing**: Python + BeautifulSoup / Selenium
+- **Analytics**: SQL, Excel, Pandas
+- **Visualisation**: Tableau
 
 
+## 📁 Project structure
+........
 
 
+## 📈 Example of analytics
+- [ ] Charts: top protein products
+- [ ] Consolidated table by product categories
+- [ ] Dynamics of assortment changes
 
 
+## 🤝 Partisipants
+- 🧠 Analytics and visualisation: @Leila-16
+- 🛠️ Parsing: @Dmitry-Perexozhev
 
+
+## 🔄 Future improvements
+- Auto-updating of data via GitHub Actions
+- Creating a website for the convenience of users
+- The ability to display the current assortment depending on the user's address
